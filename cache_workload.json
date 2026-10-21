@@ -1,0 +1,42 @@
+[
+  {
+    "station": "Aotizhongxin",
+    "patterns": 17,
+    "calibration_patterns": 19,
+    "G_min": 2,
+    "G_max": 19,
+    "query_weighted_G": 18.462791495198903,
+    "all_group_sizes_quantiles": [
+      1.0,
+      2.0,
+      11.0,
+      110.0,
+      21060.0
+    ],
+    "groups_total": 159,
+    "score_cache_bytes": 2864432,
+    "hypothetical_lazy_hit_fraction": 0.997085048010974,
+    "unmasked_queries": 5533,
+    "warm_hit_fraction_by_design": 1.0
+  },
+  {
+    "station": "Dongsi",
+    "patterns": 14,
+    "calibration_patterns": 13,
+    "G_min": 2,
+    "G_max": 13,
+    "query_weighted_G": 12.62928669410151,
+    "all_group_sizes_quantiles": [
+      2.0,
+      9.0,
+      25.0,
+      55.0,
+      21522.0
+    ],
+    "groups_total": 115,
+    "score_cache_bytes": 2410688,
+    "hypothetical_lazy_hit_fraction": 0.997599451303155,
+    "unmasked_queries": 5560,
+    "warm_hit_fraction_by_design": 1.0
+  }
+]

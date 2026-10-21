@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this research software."
+title: "Accelerating Batch Prediction Intervals for CP-MDA-Nested: Reproducibility Code"
+type: software
+authors:
+  - family-names: Huang
+    given-names: Peng
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/peng05192001-commits/cpmda-batch-intervals"

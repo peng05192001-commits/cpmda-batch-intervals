@@ -1,0 +1,14 @@
+[
+  {
+    "station": "Aotizhongxin",
+    "cold_extra_seconds": 16.686128099972848,
+    "separate_process_warm_saving_seconds": 0.48201629996765405,
+    "estimated_additional_batches": 35
+  },
+  {
+    "station": "Dongsi",
+    "cold_extra_seconds": 18.091019599989522,
+    "separate_process_warm_saving_seconds": 0.4328820999362506,
+    "estimated_additional_batches": 42
+  }
+]

@@ -1,0 +1,490 @@
+[
+  {
+    "station": "Aotizhongxin",
+    "method": "chunk32",
+    "n_calibration": 21062,
+    "n_query": 5832,
+    "query_patterns": 17,
+    "load_model_and_arrays_seconds": 3.461619400011841,
+    "candidate_initialization": null,
+    "setup": {
+      "total_seconds": 2.7841128000291064,
+      "calibration_prediction_seconds": 1.4788756000925787,
+      "method_prepare_seconds": 8.100009290501475e-05,
+      "query_pattern_count": 17,
+      "calibration_predictions_rows": 358054,
+      "additional_shared_sort_seconds": 0.018671600031666458
+    },
+    "cold_query": {
+      "total_seconds": 1.3578592999838293,
+      "query_masking_prediction_seconds": 0.6131138999480754,
+      "endpoint_kernel_seconds": 0.7192868000129238,
+      "other_grouping_validation_seconds": 0.02545860002283007,
+      "masked_prediction_rows": 107675
+    },
+    "warm_queries": [
+      {
+        "total_seconds": 1.4261523999739438,
+        "query_masking_prediction_seconds": 0.6708064000704326,
+        "endpoint_kernel_seconds": 0.7257245000218973,
+        "other_grouping_validation_seconds": 0.029621499881614,
+        "masked_prediction_rows": 107675,
+        "repetition": 0
+      },
+      {
+        "total_seconds": 1.4790459999931045,
+        "query_masking_prediction_seconds": 0.6534240000764839,
+        "endpoint_kernel_seconds": 0.7946872000466101,
+        "other_grouping_validation_seconds": 0.030934799870010465,
+        "masked_prediction_rows": 107675,
+        "repetition": 1
+      },
+      {
+        "total_seconds": 1.4629393999930471,
+        "query_masking_prediction_seconds": 0.6778454999439418,
+        "endpoint_kernel_seconds": 0.7551607000059448,
+        "other_grouping_validation_seconds": 0.02993320004316047,
+        "masked_prediction_rows": 107675,
+        "repetition": 2
+      }
+    ],
+    "median_warm_query_seconds": 1.4629393999930471,
+    "memory_after_model": {
+      "PeakWorkingSetSize": 120590336,
+      "WorkingSetSize": 120590336,
+      "PagefileUsage": 91582464,
+      "PeakPagefileUsage": 91582464,
+      "PrivateUsage": 91582464
+    },
+    "memory_ready": {
+      "PeakWorkingSetSize": 137224192,
+      "WorkingSetSize": 124723200,
+      "PagefileUsage": 95703040,
+      "PeakPagefileUsage": 108224512,
+      "PrivateUsage": 95703040
+    },
+    "memory_after_cold_query": {
+      "PeakWorkingSetSize": 137224192,
+      "WorkingSetSize": 125943808,
+      "PagefileUsage": 97583104,
+      "PeakPagefileUsage": 108224512,
+      "PrivateUsage": 97583104
+    },
+    "memory_after_warm_queries": {
+      "PeakWorkingSetSize": 137224192,
+      "WorkingSetSize": 126701568,
+      "PagefileUsage": 97570816,
+      "PeakPagefileUsage": 108224512,
+      "PrivateUsage": 97570816
+    },
+    "result_file": "runs\\Aotizhongxin_chunk32.npz",
+    "result_file_sha256": "d732c0fb12b316bd80b0d3e817def8673aaac6211e8f09e681caa917cf9a9ffa",
+    "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee",
+    "worker_body_seconds": 12.012158900033683,
+    "model_fits": 0,
+    "query_targets_read": false,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "version": "0.3.29",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "archived-local-source/vcomp140.dll",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      }
+    ],
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "launch_to_first_result_seconds": 8.164201900013722
+  },
+  {
+    "station": "Aotizhongxin",
+    "method": "implicit",
+    "n_calibration": 21062,
+    "n_query": 5832,
+    "query_patterns": 17,
+    "load_model_and_arrays_seconds": 3.515428200014867,
+    "candidate_initialization": {
+      "import_seconds": 0.660216299991589,
+      "first_compile_and_tiny_call_seconds": 16.28651460004039
+    },
+    "setup": {
+      "total_seconds": 2.8803734999964945,
+      "calibration_prediction_seconds": 1.5610771999927238,
+      "method_prepare_seconds": 0.018192899995483458,
+      "query_pattern_count": 17,
+      "calibration_predictions_rows": 358054
+    },
+    "cold_query": {
+      "total_seconds": 1.032470399979502,
+      "query_masking_prediction_seconds": 0.6542259001289494,
+      "endpoint_kernel_seconds": 0.3346183999092318,
+      "other_grouping_validation_seconds": 0.04362609994132072,
+      "masked_prediction_rows": 107675
+    },
+    "warm_queries": [
+      {
+        "total_seconds": 0.9470226000412367,
+        "query_masking_prediction_seconds": 0.5731646001222543,
+        "endpoint_kernel_seconds": 0.3481039000325836,
+        "other_grouping_validation_seconds": 0.025754099886398762,
+        "masked_prediction_rows": 107675,
+        "repetition": 0
+      },
+      {
+        "total_seconds": 1.0196090000099503,
+        "query_masking_prediction_seconds": 0.6302094998536631,
+        "endpoint_kernel_seconds": 0.359952500090003,
+        "other_grouping_validation_seconds": 0.02944700006628409,
+        "masked_prediction_rows": 107675,
+        "repetition": 1
+      },
+      {
+        "total_seconds": 0.9809231000253931,
+        "query_masking_prediction_seconds": 0.6188572000828572,
+        "endpoint_kernel_seconds": 0.33741450001252815,
+        "other_grouping_validation_seconds": 0.024651399930007756,
+        "masked_prediction_rows": 107675,
+        "repetition": 2
+      }
+    ],
+    "median_warm_query_seconds": 0.9809231000253931,
+    "memory_after_model": {
+      "PeakWorkingSetSize": 121135104,
+      "WorkingSetSize": 121135104,
+      "PagefileUsage": 92254208,
+      "PeakPagefileUsage": 92254208,
+      "PrivateUsage": 92254208
+    },
+    "memory_ready": {
+      "PeakWorkingSetSize": 236756992,
+      "WorkingSetSize": 225296384,
+      "PagefileUsage": 174964736,
+      "PeakPagefileUsage": 186499072,
+      "PrivateUsage": 174964736
+    },
+    "memory_after_cold_query": {
+      "PeakWorkingSetSize": 236756992,
+      "WorkingSetSize": 226238464,
+      "PagefileUsage": 175878144,
+      "PeakPagefileUsage": 186499072,
+      "PrivateUsage": 175878144
+    },
+    "memory_after_warm_queries": {
+      "PeakWorkingSetSize": 236756992,
+      "WorkingSetSize": 225349632,
+      "PagefileUsage": 174972928,
+      "PeakPagefileUsage": 186499072,
+      "PrivateUsage": 174972928
+    },
+    "result_file": "runs\\Aotizhongxin_implicit.npz",
+    "result_file_sha256": "d732c0fb12b316bd80b0d3e817def8673aaac6211e8f09e681caa917cf9a9ffa",
+    "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee",
+    "worker_body_seconds": 27.34766640001908,
+    "model_fits": 0,
+    "query_targets_read": false,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "version": "0.3.29",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "archived-local-source/vcomp140.dll",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      }
+    ],
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "launch_to_first_result_seconds": 24.85032999998657
+  },
+  {
+    "station": "Dongsi",
+    "method": "chunk32",
+    "n_calibration": 21524,
+    "n_query": 5832,
+    "query_patterns": 14,
+    "load_model_and_arrays_seconds": 3.268641300033778,
+    "candidate_initialization": null,
+    "setup": {
+      "total_seconds": 2.191618299984839,
+      "calibration_prediction_seconds": 1.2067235999857076,
+      "method_prepare_seconds": 6.44997344352305e-05,
+      "query_pattern_count": 14,
+      "calibration_predictions_rows": 301336,
+      "additional_shared_sort_seconds": 0.017267499992158264
+    },
+    "cold_query": {
+      "total_seconds": 1.2123241000226699,
+      "query_masking_prediction_seconds": 0.41956690000370145,
+      "endpoint_kernel_seconds": 0.7705688999267295,
+      "other_grouping_validation_seconds": 0.022188300092238933,
+      "masked_prediction_rows": 73654
+    },
+    "warm_queries": [
+      {
+        "total_seconds": 1.236460399988573,
+        "query_masking_prediction_seconds": 0.44446959998458624,
+        "endpoint_kernel_seconds": 0.7677063000155613,
+        "other_grouping_validation_seconds": 0.024284499988425523,
+        "masked_prediction_rows": 73654,
+        "repetition": 0
+      },
+      {
+        "total_seconds": 1.222074999997858,
+        "query_masking_prediction_seconds": 0.4300548999453895,
+        "endpoint_kernel_seconds": 0.769228299963288,
+        "other_grouping_validation_seconds": 0.02279180008918047,
+        "masked_prediction_rows": 73654,
+        "repetition": 1
+      },
+      {
+        "total_seconds": 1.2707867000135593,
+        "query_masking_prediction_seconds": 0.4691501000779681,
+        "endpoint_kernel_seconds": 0.7776038001757115,
+        "other_grouping_validation_seconds": 0.02403279975987971,
+        "masked_prediction_rows": 73654,
+        "repetition": 2
+      }
+    ],
+    "median_warm_query_seconds": 1.236460399988573,
+    "memory_after_model": {
+      "PeakWorkingSetSize": 121118720,
+      "WorkingSetSize": 121118720,
+      "PagefileUsage": 92487680,
+      "PeakPagefileUsage": 92487680,
+      "PrivateUsage": 92487680
+    },
+    "memory_ready": {
+      "PeakWorkingSetSize": 137916416,
+      "WorkingSetSize": 125161472,
+      "PagefileUsage": 96415744,
+      "PeakPagefileUsage": 109330432,
+      "PrivateUsage": 96415744
+    },
+    "memory_after_cold_query": {
+      "PeakWorkingSetSize": 137916416,
+      "WorkingSetSize": 126521344,
+      "PagefileUsage": 97914880,
+      "PeakPagefileUsage": 109330432,
+      "PrivateUsage": 97914880
+    },
+    "memory_after_warm_queries": {
+      "PeakWorkingSetSize": 137916416,
+      "WorkingSetSize": 127021056,
+      "PagefileUsage": 98291712,
+      "PeakPagefileUsage": 109330432,
+      "PrivateUsage": 98291712
+    },
+    "result_file": "runs\\Dongsi_chunk32.npz",
+    "result_file_sha256": "ce01143f621d4438def4bba2eb586278e880df7c9744ed0ff5561980a20d1e5b",
+    "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238",
+    "worker_body_seconds": 10.435843300016131,
+    "model_fits": 0,
+    "query_targets_read": false,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "version": "0.3.29",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "archived-local-source/vcomp140.dll",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      }
+    ],
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "launch_to_first_result_seconds": 7.169456400035415
+  },
+  {
+    "station": "Dongsi",
+    "method": "implicit",
+    "n_calibration": 21524,
+    "n_query": 5832,
+    "query_patterns": 14,
+    "load_model_and_arrays_seconds": 3.872916800028179,
+    "candidate_initialization": {
+      "import_seconds": 0.5793998999870382,
+      "first_compile_and_tiny_call_seconds": 17.1775278999703
+    },
+    "setup": {
+      "total_seconds": 2.2943537999526598,
+      "calibration_prediction_seconds": 1.2797931998502463,
+      "method_prepare_seconds": 0.016452500014565885,
+      "query_pattern_count": 14,
+      "calibration_predictions_rows": 301336
+    },
+    "cold_query": {
+      "total_seconds": 0.8567479999619536,
+      "query_masking_prediction_seconds": 0.4935321998782456,
+      "endpoint_kernel_seconds": 0.3378660999587737,
+      "other_grouping_validation_seconds": 0.025349700124934316,
+      "masked_prediction_rows": 73654
+    },
+    "warm_queries": [
+      {
+        "total_seconds": 0.8245493000140414,
+        "query_masking_prediction_seconds": 0.48416630004066974,
+        "endpoint_kernel_seconds": 0.3167842999682762,
+        "other_grouping_validation_seconds": 0.023598700005095452,
+        "masked_prediction_rows": 73654,
+        "repetition": 0
+      },
+      {
+        "total_seconds": 0.8035783000523224,
+        "query_masking_prediction_seconds": 0.45186250004917383,
+        "endpoint_kernel_seconds": 0.3248668001033366,
+        "other_grouping_validation_seconds": 0.026848999899812043,
+        "masked_prediction_rows": 73654,
+        "repetition": 1
+      },
+      {
+        "total_seconds": 0.8021952999988571,
+        "query_masking_prediction_seconds": 0.4616444999119267,
+        "endpoint_kernel_seconds": 0.3163835000596009,
+        "other_grouping_validation_seconds": 0.024167300027329475,
+        "masked_prediction_rows": 73654,
+        "repetition": 2
+      }
+    ],
+    "median_warm_query_seconds": 0.8035783000523224,
+    "memory_after_model": {
+      "PeakWorkingSetSize": 120827904,
+      "WorkingSetSize": 120827904,
+      "PagefileUsage": 92033024,
+      "PeakPagefileUsage": 92033024,
+      "PrivateUsage": 92033024
+    },
+    "memory_ready": {
+      "PeakWorkingSetSize": 236064768,
+      "WorkingSetSize": 224006144,
+      "PagefileUsage": 173928448,
+      "PeakPagefileUsage": 186073088,
+      "PrivateUsage": 173928448
+    },
+    "memory_after_cold_query": {
+      "PeakWorkingSetSize": 236064768,
+      "WorkingSetSize": 225845248,
+      "PagefileUsage": 175738880,
+      "PeakPagefileUsage": 186073088,
+      "PrivateUsage": 175738880
+    },
+    "memory_after_warm_queries": {
+      "PeakWorkingSetSize": 236064768,
+      "WorkingSetSize": 225849344,
+      "PagefileUsage": 175738880,
+      "PeakPagefileUsage": 186073088,
+      "PrivateUsage": 175738880
+    },
+    "result_file": "runs\\Dongsi_implicit.npz",
+    "result_file_sha256": "ce01143f621d4438def4bba2eb586278e880df7c9744ed0ff5561980a20d1e5b",
+    "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238",
+    "worker_body_seconds": 27.22898970003007,
+    "model_fits": 0,
+    "query_targets_read": false,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "version": "0.3.29",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "archived-local-source/vcomp140.dll",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "archived-local-source/libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      }
+    ],
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "launch_to_first_result_seconds": 25.260476000024937
+  }
+]

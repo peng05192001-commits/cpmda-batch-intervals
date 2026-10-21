@@ -1,0 +1,9 @@
+{
+  "seed": 20261023,
+  "unequal_and_tied_fixtures": 250,
+  "rank_checks": 1451,
+  "nonterminating_iterations_checked": 3118,
+  "minimum_discard_fraction": 0.2857142857142857,
+  "source_sha256": "d52792547e89a3d534a330ea7c443003bce3908f41758f98a7069b15416e4db5",
+  "note": "Instrumented Python form of existing selector; numerical rank versus explicit sorted union and each nonterminating discard >=1/4 independently asserted. Original files unchanged."
+}

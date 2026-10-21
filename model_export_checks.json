@@ -1,0 +1,24 @@
+[
+  {
+    "station": "Aotizhongxin",
+    "original_sha256": "6499b569e065ec7661f0881607913562d8db82a6f8cdcf99c8afdbd402fe2e82",
+    "public_sha256": "7f7931eac03af5a6ca7ab7b470496e28c3f46ef46256126b36092c918960993d",
+    "exported_keys": [
+      "prep",
+      "models"
+    ],
+    "all_5832_query_predictions_identical": true,
+    "refitted": false
+  },
+  {
+    "station": "Dongsi",
+    "original_sha256": "531e56f37c91213c73ba5dba220fd11e237de5b4fcd039475ed059776eacd886",
+    "public_sha256": "1c4f046eecf81c9cb9e9f9f599303bd8ca53b8e385eb83a3b9caaa5259c3f7e2",
+    "exported_keys": [
+      "prep",
+      "models"
+    ],
+    "all_5832_query_predictions_identical": true,
+    "refitted": false
+  }
+]

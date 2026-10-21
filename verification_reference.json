@@ -1,0 +1,717 @@
+{
+  "correctness": {
+    "status": "passed",
+    "endpoint_values_compared": 5424,
+    "exact_order_statistics_checked": 483,
+    "max_absolute_endpoint_difference": 0.0,
+    "cases": [
+      {
+        "label": "random_ties_or_signed",
+        "n": 4,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 45,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 6,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 100,
+        "G": 15,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 47,
+        "G": 6,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 12,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 13,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 10,
+        "G": 2,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 9,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 145,
+        "G": 15,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 8,
+        "G": 2,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 6,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 56,
+        "G": 6,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 7,
+        "G": 2,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 15,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 2,
+        "G": 1,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 45,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 141,
+        "G": 15,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 19,
+        "G": 2,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 51,
+        "G": 6,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 56,
+        "G": 6,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 4,
+        "G": 1,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 47,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 18,
+        "G": 2,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 1,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 27,
+        "G": 2,
+        "p": 0.9333333333333333
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 14,
+        "G": 1,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 21,
+        "G": 2,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 15,
+        "G": 2,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 7,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 108,
+        "G": 15,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 118,
+        "G": 15,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 43,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 15,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 14,
+        "G": 2,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 10,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 7,
+        "G": 1,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 40,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 22,
+        "G": 2,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 60,
+        "G": 6,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 5,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 29,
+        "G": 6,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 64,
+        "G": 6,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 16,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 47,
+        "G": 6,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 10,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 136,
+        "G": 15,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 23,
+        "G": 2,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 2,
+        "G": 1,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 1,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 104,
+        "G": 15,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 11,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 132,
+        "G": 15,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 1,
+        "G": 1,
+        "p": 1.8
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 11,
+        "G": 2,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 17,
+        "G": 2,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 17,
+        "G": 2,
+        "p": 0.9529411764705883
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 21,
+        "G": 2,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 31,
+        "G": 2,
+        "p": 0.9290322580645162
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 14,
+        "G": 1,
+        "p": 0.9642857142857143
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 10,
+        "G": 1,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 7,
+        "G": 1,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 50,
+        "G": 6,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 14,
+        "G": 1,
+        "p": 0.9642857142857143
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 4,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 32,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 44,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 118,
+        "G": 15,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 6,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 22,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 14,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 16,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 13,
+        "G": 1,
+        "p": 0.9692307692307692
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 162,
+        "G": 15,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 122,
+        "G": 15,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 3,
+        "G": 1,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 116,
+        "G": 15,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 17,
+        "G": 2,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 122,
+        "G": 15,
+        "p": 0.5
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 138,
+        "G": 15,
+        "p": 0.9065217391304349
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 95,
+        "G": 15,
+        "p": 0.9094736842105263
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 5,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 8,
+        "G": 2,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 65,
+        "G": 6,
+        "p": 0.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 15,
+        "G": 1,
+        "p": 0.96
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 33,
+        "G": 6,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 128,
+        "G": 15,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 9,
+        "G": 1,
+        "p": 1.0
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 45,
+        "G": 6,
+        "p": 0.9
+      },
+      {
+        "label": "random_ties_or_signed",
+        "n": 2,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 1,
+        "G": 1,
+        "p": 0.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 1,
+        "G": 1,
+        "p": 0.37
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 1,
+        "G": 1,
+        "p": 1.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 1,
+        "G": 1,
+        "p": 1.8
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 5,
+        "G": 5,
+        "p": 0.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 5,
+        "G": 5,
+        "p": 0.37
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 5,
+        "G": 5,
+        "p": 1.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 5,
+        "G": 5,
+        "p": 1.08
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 0.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 0.37
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 1.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 1.125
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 0.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 0.37
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 1.0
+      },
+      {
+        "label": "singleton_groups_cancellation_and_extreme",
+        "n": 4,
+        "G": 4,
+        "p": 1.125
+      }
+    ],
+    "rejected_inputs": [
+      "empty",
+      "nan",
+      "overflow"
+    ],
+    "initialization": {
+      "import_seconds": 0.8073031999992963,
+      "first_compile_and_tiny_call_seconds": 10.108251499999824
+    }
+  },
+  "real": [
+    {
+      "station": "Aotizhongxin",
+      "method": "unsorted_chunk256",
+      "exact_equal": true,
+      "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee"
+    },
+    {
+      "station": "Aotizhongxin",
+      "method": "sorted_chunk1",
+      "exact_equal": true,
+      "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee"
+    },
+    {
+      "station": "Aotizhongxin",
+      "method": "sorted_chunk32",
+      "exact_equal": true,
+      "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee"
+    },
+    {
+      "station": "Aotizhongxin",
+      "method": "sorted_chunk256",
+      "exact_equal": true,
+      "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee"
+    },
+    {
+      "station": "Aotizhongxin",
+      "method": "implicit",
+      "exact_equal": true,
+      "endpoint_sha256": "78210992f263998fad4f2eff8ed82fd00dca988d0fde8b840ac825c8c3d735ee"
+    },
+    {
+      "station": "Dongsi",
+      "method": "unsorted_chunk256",
+      "exact_equal": true,
+      "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238"
+    },
+    {
+      "station": "Dongsi",
+      "method": "sorted_chunk1",
+      "exact_equal": true,
+      "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238"
+    },
+    {
+      "station": "Dongsi",
+      "method": "sorted_chunk32",
+      "exact_equal": true,
+      "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238"
+    },
+    {
+      "station": "Dongsi",
+      "method": "sorted_chunk256",
+      "exact_equal": true,
+      "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238"
+    },
+    {
+      "station": "Dongsi",
+      "method": "implicit",
+      "exact_equal": true,
+      "endpoint_sha256": "a3f57dfa6ced4eb9fcb994064ebf8a9918b2a58a15f5823f59d791d19516b238"
+    }
+  ]
+}

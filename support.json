@@ -1,0 +1,939 @@
+{
+  "status": "eligible",
+  "records": [
+    {
+      "key": "00_recovery_Aotizhongxin",
+      "station": "Aotizhongxin",
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv",
+      "n_calibration": 21062,
+      "raw_calibration_hours": 21888,
+      "excluded_missing_calibration_targets": 826,
+      "n_query": 5832,
+      "calibration_native_mask_count": 19,
+      "query_mask_count": 17,
+      "query_patterns": [
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 5533,
+          "G": 19,
+          "calibration_group_sizes": [
+            20352,
+            2,
+            313,
+            103,
+            11,
+            110,
+            7,
+            6,
+            1,
+            50,
+            2,
+            5,
+            2,
+            2,
+            1,
+            12,
+            79,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 1864576736
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "B": 6,
+          "G": 19,
+          "calibration_group_sizes": [
+            20352,
+            2,
+            313,
+            103,
+            11,
+            110,
+            7,
+            6,
+            1,
+            50,
+            2,
+            5,
+            2,
+            2,
+            1,
+            12,
+            79,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 2021952
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "B": 12,
+          "G": 18,
+          "calibration_group_sizes": [
+            20354,
+            313,
+            103,
+            11,
+            110,
+            7,
+            6,
+            1,
+            50,
+            2,
+            5,
+            2,
+            2,
+            1,
+            12,
+            79,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 4043904
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 80,
+          "G": 11,
+          "calibration_group_sizes": [
+            20665,
+            2,
+            114,
+            117,
+            7,
+            52,
+            7,
+            3,
+            91,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 26959360
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 17,
+          "G": 10,
+          "calibration_group_sizes": [
+            20455,
+            2,
+            324,
+            116,
+            8,
+            55,
+            4,
+            14,
+            80,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 5728864
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 3,
+          "G": 6,
+          "calibration_group_sizes": [
+            20779,
+            2,
+            124,
+            59,
+            94,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 1010976
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 68,
+          "G": 11,
+          "calibration_group_sizes": [
+            20462,
+            2,
+            320,
+            109,
+            12,
+            52,
+            3,
+            17,
+            81,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 22915456
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 5,
+          "G": 6,
+          "calibration_group_sizes": [
+            20571,
+            2,
+            332,
+            69,
+            84,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 1684960
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 2,
+          "G": 4,
+          "calibration_group_sizes": [
+            20903,
+            2,
+            153,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 673984
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 4,
+          "G": 11,
+          "calibration_group_sizes": [
+            20402,
+            2,
+            315,
+            108,
+            13,
+            112,
+            8,
+            18,
+            80,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 1347968
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 2,
+          "G": 6,
+          "calibration_group_sizes": [
+            20510,
+            2,
+            328,
+            130,
+            88,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 673984
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 10,
+          "G": 7,
+          "calibration_group_sizes": [
+            20514,
+            2,
+            323,
+            126,
+            93,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 3369920
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 3,
+          "G": 5,
+          "calibration_group_sizes": [
+            20837,
+            2,
+            219,
+            3,
+            1
+          ],
+          "reference_two_endpoint_arrays_bytes": 1010976
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 8,
+          "G": 4,
+          "calibration_group_sizes": [
+            20640,
+            2,
+            416,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 2695936
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 3,
+          "G": 3,
+          "calibration_group_sizes": [
+            21056,
+            2,
+            4
+          ],
+          "reference_two_endpoint_arrays_bytes": 1010976
+        },
+        {
+          "query_mask": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 2,
+          "G": 17,
+          "calibration_group_sizes": [
+            20355,
+            2,
+            313,
+            104,
+            11,
+            110,
+            7,
+            6,
+            1,
+            50,
+            2,
+            5,
+            2,
+            2,
+            1,
+            12,
+            79
+          ],
+          "reference_two_endpoint_arrays_bytes": 673984
+        },
+        {
+          "query_mask": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 74,
+          "G": 2,
+          "calibration_group_sizes": [
+            21060,
+            2
+          ],
+          "reference_two_endpoint_arrays_bytes": 24937408
+        }
+      ],
+      "duplicate_time_keys": 0,
+      "training_calibration_overlap": 0,
+      "calibration_query_overlap": 0,
+      "last_model_design_time": "2013-06-11 07:00:00",
+      "calibration_range": [
+        "2014-01-01 00:00:00",
+        "2016-06-30 23:00:00"
+      ],
+      "query_range": [
+        "2016-07-01 00:00:00",
+        "2017-02-28 23:00:00"
+      ],
+      "numeric_query_targets_read": false,
+      "input_file": "Aotizhongxin.npz",
+      "input_sha256": "2c267755981be39856ce201ee3d69e2973fe61d6cf57b025134bd71481c64e7c",
+      "frozen_model_file": "Aotizhongxin.joblib",
+      "frozen_model_sha256": "7f7931eac03af5a6ca7ab7b470496e28c3f46ef46256126b36092c918960993d",
+      "eligible": true,
+      "original_archived_model_sha256": "6499b569e065ec7661f0881607913562d8db82a6f8cdcf99c8afdbd402fe2e82"
+    },
+    {
+      "key": "06_recovery_Dongsi",
+      "station": "Dongsi",
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Dongsi_20130301-20170228.csv",
+      "n_calibration": 21524,
+      "raw_calibration_hours": 21888,
+      "excluded_missing_calibration_targets": 364,
+      "n_query": 5832,
+      "calibration_native_mask_count": 13,
+      "query_mask_count": 14,
+      "query_patterns": [
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 5560,
+          "G": 13,
+          "calibration_group_sizes": [
+            20318,
+            2,
+            55,
+            25,
+            6,
+            977,
+            26,
+            22,
+            21,
+            8,
+            11,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 1914775040
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "B": 6,
+          "G": 13,
+          "calibration_group_sizes": [
+            20318,
+            2,
+            55,
+            25,
+            6,
+            977,
+            26,
+            22,
+            21,
+            8,
+            11,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 2066304
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "B": 12,
+          "G": 12,
+          "calibration_group_sizes": [
+            20320,
+            55,
+            25,
+            6,
+            977,
+            26,
+            22,
+            21,
+            8,
+            11,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 4132608
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 8,
+          "G": 10,
+          "calibration_group_sizes": [
+            20373,
+            2,
+            31,
+            1003,
+            22,
+            21,
+            8,
+            11,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 2755072
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 28,
+          "G": 9,
+          "calibration_group_sizes": [
+            20343,
+            2,
+            61,
+            999,
+            26,
+            29,
+            11,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 9642752
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 4,
+          "G": 6,
+          "calibration_group_sizes": [
+            20404,
+            2,
+            1025,
+            29,
+            55,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 1377536
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 11,
+          "G": 9,
+          "calibration_group_sizes": [
+            21295,
+            2,
+            81,
+            47,
+            6,
+            32,
+            8,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 3788224
+        },
+        {
+          "query_mask": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 4,
+          "G": 6,
+          "calibration_group_sizes": [
+            21376,
+            2,
+            53,
+            32,
+            52,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 1377536
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 6,
+          "G": 10,
+          "calibration_group_sizes": [
+            20339,
+            2,
+            55,
+            33,
+            6,
+            988,
+            26,
+            22,
+            44,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 2066304
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 1,
+          "G": 6,
+          "calibration_group_sizes": [
+            20394,
+            2,
+            39,
+            1014,
+            66,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 344384
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 1,
+          "G": 4,
+          "calibration_group_sizes": [
+            21382,
+            2,
+            131,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 344384
+        },
+        {
+          "query_mask": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 1,
+          "G": 3,
+          "calibration_group_sizes": [
+            21513,
+            2,
+            9
+          ],
+          "reference_two_endpoint_arrays_bytes": 344384
+        },
+        {
+          "query_mask": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 22,
+          "G": 12,
+          "calibration_group_sizes": [
+            20327,
+            2,
+            55,
+            25,
+            6,
+            977,
+            26,
+            22,
+            21,
+            8,
+            11,
+            44
+          ],
+          "reference_two_endpoint_arrays_bytes": 7576448
+        },
+        {
+          "query_mask": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "B": 168,
+          "G": 2,
+          "calibration_group_sizes": [
+            21522,
+            2
+          ],
+          "reference_two_endpoint_arrays_bytes": 57856512
+        }
+      ],
+      "duplicate_time_keys": 0,
+      "training_calibration_overlap": 0,
+      "calibration_query_overlap": 0,
+      "last_model_design_time": "2013-11-04 22:00:00",
+      "calibration_range": [
+        "2014-01-01 00:00:00",
+        "2016-06-30 23:00:00"
+      ],
+      "query_range": [
+        "2016-07-01 00:00:00",
+        "2017-02-28 23:00:00"
+      ],
+      "numeric_query_targets_read": false,
+      "input_file": "Dongsi.npz",
+      "input_sha256": "cc0b803965f0d6474babd27ec9c73de28a86a6a6ed77434875aaa293359e2765",
+      "frozen_model_file": "Dongsi.joblib",
+      "frozen_model_sha256": "1c4f046eecf81c9cb9e9f9f599303bd8ca53b8e385eb83a3b9caaa5259c3f7e2",
+      "eligible": true,
+      "original_archived_model_sha256": "531e56f37c91213c73ba5dba220fd11e237de5b4fcd039475ed059776eacd886"
+    }
+  ],
+  "protocol_sha256": "c8b5e85aa067640c7168b59ea275a3e4f394c79fcc759169d84b104d035fbc27",
+  "prepare_sha256": "67260fbdb365e88a7fe89439bb198ea06efb2de70fad5739234d2bdc00a8664f",
+  "raw_zip_sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4",
+  "source_manifest_sha256": "599914ef4a6296929e2091cfd1583a9d48e00c2d3ca5d8bb27b6453cee63fcc5",
+  "synthetic_or_duplicated_rows": false,
+  "model_fits": 0,
+  "scope": "real historical offline batch computation; actual deployment demand and predictive validity not established"
+}

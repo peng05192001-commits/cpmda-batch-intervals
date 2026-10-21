@@ -1,0 +1,10 @@
+{
+  "sha": "e1ff0c83a4943e6468b78bfec49af64fc61c3561",
+  "date": "2023-06-04T21:22:23Z",
+  "tree": "816dbdd681e386495d6bb72c66403a087d69e9cc",
+  "pinned_sha256": "996e9c38779df328fc0a42b94641d14dccb1f02505b7ad9e342f0463ace90abf",
+  "original_snapshot_sha256": "996e9c38779df328fc0a42b94641d14dccb1f02505b7ad9e342f0463ace90abf",
+  "normalized_text_match": true,
+  "exact_bytes_match": true,
+  "transport_note": "apply_patch added one final newline; removed that transport-only newline to restore exact GitHub snapshot bytes"
+}
